@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Table Example</title>
+  <style>
+  table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+
+  td {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  tr:hover {
+    background-color: #d1f0d1;
+    transition: 0.3s;
+  }
+
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+</style>
+</head>
+<body>
+  <table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+      <th>name</th>
+      <th>score</th>
+      <th>staduim</th>
+    </tr>
+    <tr>
+      <td>preeti</td>
+      <td>40</td>
+      <td>lucknow</td>
+    </tr>
+    <tr>
+      <td>divyam</td>
+      <td>44</td>
+      <td>banglore</td>
+    </tr>
+    <tr>
+      <td>sunny</td>
+      <td>50</td>
+      <td>delhi</td>
+    </tr>
+  </table>
+
+</body>
+</html>
